@@ -7,11 +7,11 @@ document.getElementById("themeBtn").addEventListener("click", function() {
 const style = document.createElement("style");
 style.textContent = `
   .dark {
-    background: #111;
-    color: #eee;
+    background: #ffffffff;
+    color: #000000ff;
   }
   .dark header {
-    background: #000;
+    background: #000000ff;
   }
 `;
 document.head.appendChild(style);
