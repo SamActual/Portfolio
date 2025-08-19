@@ -82,3 +82,25 @@ button:hover {
   transform: translateY(-8px);
   background: #222222;
 }
+
+.projects {
+  display: flex;
+  gap: 15px;
+  justify-content: center left;
+  padding: 20px;
+}
+
+.projects .card {
+  background: #1a1a1a;
+  padding: 20px;
+  border-radius: 20px;
+  flex: 1;
+  text-align: center left;
+}
+
+@media (max-width: 600px) {
+  .about, .projects {
+    flex-direction: column;
+  }
+}
+
