@@ -1,18 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sam Adler | Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Sam Adler | Portfolio</title>
+   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <nav>
+    <h1 class="logo" id="logo">My Logo</h1>
+    <ul>
+      <li><a href="#logo">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  <section class="hero">
+   <div class="hero-content">
+       <h1>Welcome to My Website</h1>
+       <p>This is my personal space where I share my work and projects.</p>
+       <a href="#profile" class="hero-btn">Learn More</a>
+   </div>
+  </section>
   <header>
-    <img src="moose.jpg" alt="Profile Picture">
-    <h1>Sam Adler</h1>
-    <p>Aspiring Developer | BBA Student</p>
+    <section id="profile">
+     <img src="moose.jpg" alt="Profile Picture">
+     <h1>Sam Adler</h1>
+     <p>Aspiring Developer | BBA Student</p>
+    </section>
   </header>
-  <section class="about">
+  <section class="about" id="about">
     <div class="card">
       <h2>About Me</h2>
       <p>I’m Sam, a BBA student exploring tech & coding to build a remote career.</p>
@@ -24,12 +42,12 @@
     </div>
   </section>
 
-  <section class="projects">
+  <section class="projects" id="projects">
     <div class="card">
      <h2>Projects</h2>
      <ul>
-      <li>Simple Homepage</li>
-      <li>Interactive Button (JS)</li>
+       <li>Simple Homepage</li>
+       <li>Interactive Button (JS)</li>
      </ul>
     </div>
   </section>
@@ -39,6 +57,15 @@
     <p>Email: abc@gmail.com</p>
     <button id="themeBtn">Change Theme</button>
   </section>
+
+  <footer>
+   <p>© 2025 Sam Adler | All Rights Reserved</p>
+   <ul>
+     <li><a href="#">Twitter</a></li>
+     <li><a href="#">LinkedIn</a></li>
+     <li><a href="#">GitHub</a></li>
+   </ul>
+  </footer>
 
   <script src="script.js"></script>
 </body>
